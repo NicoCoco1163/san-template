@@ -1,13 +1,12 @@
 {
-  "name": "san-template",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack",
     "build": "NODE_ENV=production webpack --config webpack"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "san": "^3.7.7",
